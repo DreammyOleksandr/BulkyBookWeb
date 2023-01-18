@@ -5,21 +5,10 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3b22c60b-5724-484d-acd8-3a0e6d05dcda.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3b22c60b-5724-484d-acd8-3a0e6d05dcda/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" beforeDir="false" />
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Making site appearance w bootswatch">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +101,7 @@
       <workItem from="1673512752946" duration="2453000" />
       <workItem from="1673535473173" duration="947000" />
       <workItem from="1673536657446" duration="1538000" />
-      <workItem from="1674047741761" duration="5704000" />
+      <workItem from="1674047741761" duration="7580000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -135,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673514058736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Making site appearance w bootswatch">
+      <created>1674054108293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674054108293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +145,8 @@
     <MESSAGE value="Adding Db Context" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Creating Migrations using code-first approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Migrations using code-first approach" />
+    <MESSAGE value="Making site appearance w bootswatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making site appearance w bootswatch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
