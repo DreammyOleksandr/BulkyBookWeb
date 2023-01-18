@@ -10,7 +10,9 @@
       <user-name>bondarenkooleksandr</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
+          <node kind="database">
+            <name qname="@" />
+            <name qname="bulky" />
             <node kind="schema" qname="@" />
           </node>
         </introspection-scope>

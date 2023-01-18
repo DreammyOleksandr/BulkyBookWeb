@@ -5,45 +5,69 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Initial Commit">
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3b22c60b-5724-484d-acd8-3a0e6d05dcda.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3b22c60b-5724-484d-acd8-3a0e6d05dcda/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/_ViewStart.cshtml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/bondarenkooleksandr/C#Projects/BulkyBookWeb/BulkyBookWeb/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2KDZVrKMyVGJkWaLKqm2CAYKOS8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DebuggerViewTab_PTCS_FirstProportionKey": "0.35032305",
+    "DebuggerViewTab_PTCS_LastProportionKey": "0.0",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/bondarenkooleksandr/.local/share/Symbols/src&quot;
+    "rider.external.source.directories": [
+      "/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/bondarenkooleksandr/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BulkyBookWeb: http">
     <configuration name="BulkyBookWeb: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" />
@@ -85,7 +109,10 @@
       <option name="presentableId" value="Default" />
       <updated>1673511141429</updated>
       <workItem from="1673511142824" duration="1419000" />
-      <workItem from="1673512752946" duration="1191000" />
+      <workItem from="1673512752946" duration="2453000" />
+      <workItem from="1673535473173" duration="947000" />
+      <workItem from="1673536657446" duration="1538000" />
+      <workItem from="1674047741761" duration="5704000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -101,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673513491095</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating Migrations using code-first approach">
+      <created>1673514058736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673514058736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +148,26 @@
     <MESSAGE value="Adding categories to DB with code-first approach" />
     <MESSAGE value="Adding Db Context" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Creating Migrations using code-first approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Migrations using code-first approach" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" initialLine="18" containingFunctionPresentation="method 'Index'">
+            <startOffsets>
+              <option value="424" />
+            </startOffsets>
+            <endOffsets>
+              <option value="458" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
