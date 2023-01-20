@@ -44,4 +44,44 @@ public class CategoryController : Controller
         else
             return View(obj);
     }
+
+    public IActionResult Edit(int? Id)
+    {
+        if (Id == null || Id == 0)
+        {
+            return NotFound();
+        }
+
+        var categoryFromDb = _db.Categories.Find(Id);
+        // var categoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.Id == Id);
+        // var categoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == Id);
+
+        if (categoryFromDb == null)
+        {
+            return NotFound();
+        }
+
+        return View(categoryFromDb);
+    }
+
+
+    [HttpPost]
+    [AutoValidateAntiforgeryToken]
+    public IActionResult Edit(Category obj)
+    {
+        if (obj.Name == obj.DisplayOrder.ToString())
+        {
+            ModelState.AddModelError("Name", "The display order can not match the name");
+        }
+
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        else
+            return View(obj);
+    }
 }

@@ -5,17 +5,11 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Views">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Migrations/20230112085755_AddingCategoriesToBulkyDb.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Migrations/20230112085755_AddingCategoriesToBulkyDb.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +105,7 @@
       <workItem from="1674047741761" duration="9316000" />
       <workItem from="1674083539823" duration="1303000" />
       <workItem from="1674122032667" duration="2653000" />
+      <workItem from="1674211387062" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -147,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674055840152</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Views">
+      <created>1674211415312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674211415312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +165,8 @@
     <MESSAGE value="Creating Migrations using code-first approach" />
     <MESSAGE value="Making site appearance w bootswatch" />
     <MESSAGE value="Started making create category function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started making create category function" />
+    <MESSAGE value="Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
