@@ -5,10 +5,17 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Making site appearance w bootswatch">
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Migrations/20230112085755_AddingCategoriesToBulkyDb.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Migrations/20230112085755_AddingCategoriesToBulkyDb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DebuggerViewTab_PTCS_FirstProportionKey": "0.35032305",
-    "DebuggerViewTab_PTCS_LastProportionKey": "0.0",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DebuggerViewTab_PTCS_FirstProportionKey&quot;: &quot;0.35032305&quot;,
+    &quot;DebuggerViewTab_PTCS_LastProportionKey&quot;: &quot;0.0&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/Users/bondarenkooleksandr/.local/share/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/bondarenkooleksandr/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/bondarenkooleksandr/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BulkyBookWeb: http">
     <configuration name="BulkyBookWeb: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" />
@@ -101,7 +108,9 @@
       <workItem from="1673512752946" duration="2453000" />
       <workItem from="1673535473173" duration="947000" />
       <workItem from="1673536657446" duration="1538000" />
-      <workItem from="1674047741761" duration="7580000" />
+      <workItem from="1674047741761" duration="9316000" />
+      <workItem from="1674083539823" duration="1303000" />
+      <workItem from="1674122032667" duration="2653000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -131,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674054108293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Started making create category function">
+      <created>1674055840152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674055840152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +162,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Creating Migrations using code-first approach" />
     <MESSAGE value="Making site appearance w bootswatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making site appearance w bootswatch" />
+    <MESSAGE value="Started making create category function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started making create category function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -156,10 +173,10 @@
           <line>18</line>
           <properties documentPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" initialLine="18" containingFunctionPresentation="method 'Index'">
             <startOffsets>
-              <option value="424" />
+              <option value="419" />
             </startOffsets>
             <endOffsets>
-              <option value="458" />
+              <option value="453" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
