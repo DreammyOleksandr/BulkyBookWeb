@@ -5,12 +5,10 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Working on Delete file and other staff like validations">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/bondarenkooleksandr/C#Projects/BulkyBookWeb/BulkyBookWeb/Models/Category.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -108,7 +109,7 @@
       <workItem from="1674122032667" duration="2653000" />
       <workItem from="1674211387062" duration="4023000" />
       <workItem from="1674231949276" duration="771000" />
-      <workItem from="1674663192851" duration="2623000" />
+      <workItem from="1674663192851" duration="5378000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674214936574</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Working on Delete file and other staff like validations">
+      <created>1674666315741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674666315741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="Started making create category function" />
     <MESSAGE value="Views" />
     <MESSAGE value="Creating Edit View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Edit View" />
+    <MESSAGE value="Working on Delete file and other staff like validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Delete file and other staff like validations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
