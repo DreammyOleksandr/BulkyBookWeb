@@ -5,11 +5,12 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="Views">
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Models/Category.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,9 @@
       <workItem from="1674047741761" duration="9316000" />
       <workItem from="1674083539823" duration="1303000" />
       <workItem from="1674122032667" duration="2653000" />
-      <workItem from="1674211387062" duration="3210000" />
+      <workItem from="1674211387062" duration="4023000" />
+      <workItem from="1674231949276" duration="771000" />
+      <workItem from="1674663192851" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -149,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674211415312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creating Edit View">
+      <created>1674214936574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674214936574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +176,8 @@
     <MESSAGE value="Making site appearance w bootswatch" />
     <MESSAGE value="Started making create category function" />
     <MESSAGE value="Views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Views" />
+    <MESSAGE value="Creating Edit View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Edit View" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
