@@ -105,7 +105,7 @@ public class CategoryController : Controller
 
         return View(categoryFromDb);
     }
-
+    
 
     [HttpPost]
     [AutoValidateAntiforgeryToken]
