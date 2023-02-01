@@ -6,12 +6,14 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="nepon">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/TempController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/TempController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Notifications.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Notifications.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/TempController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Index.cshtml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,16 +29,17 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BulkyBook.Utility/StaticDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Notifications.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/bondarenkooleksandr/C#Projects/BulkyBookWeb/BulkyBookWeb/Views/Shared/_Notifications.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eeaf281031b3ffe3d44a91e71a5808c8d236a9caabbb947871e6dc415bd8b/Migration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2KDZVrKMyVGJkWaLKqm2CAYKOS8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -143,6 +146,7 @@
       <workItem from="1674834666888" duration="31000" />
       <workItem from="1674998156022" duration="121000" />
       <workItem from="1675258392211" duration="415000" />
+      <workItem from="1675287222425" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674668657974</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding N-Tier Architecture to the project">
+      <created>1675287315400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675287315400</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +238,9 @@
     <MESSAGE value="Creating Edit View" />
     <MESSAGE value="Working on Delete file and other staff like validations" />
     <MESSAGE value="Adding toastr lib for flying notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding toastr lib for flying notifications" />
+    <MESSAGE value="Adding N-Tier Architecture to the project" />
+    <MESSAGE value="nepon" />
+    <option name="LAST_COMMIT_MESSAGE" value="nepon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
