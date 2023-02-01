@@ -14,6 +14,7 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.2" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2">
@@ -26,6 +27,11 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Pages\Caregory\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Temp\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Temp\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Temp\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Temp\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Temp\Index.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -39,6 +45,12 @@
 
     <ItemGroup>
       <AdditionalFiles Include="Views\Category\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BulkyBook.DataAccess\BulkyBook.DataAccess.csproj" />
+      <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
+      <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj" />
     </ItemGroup>
 
 </Project>
