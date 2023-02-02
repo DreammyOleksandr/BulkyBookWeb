@@ -6,14 +6,10 @@
     <projectFile profileName="https">BulkyBookWeb/BulkyBookWeb.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="nepon">
+    <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/TempController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Temp/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KDZVrKMyVGJkWaLKqm2CAYKOS8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -146,7 +142,9 @@
       <workItem from="1674834666888" duration="31000" />
       <workItem from="1674998156022" duration="121000" />
       <workItem from="1675258392211" duration="415000" />
-      <workItem from="1675287222425" duration="460000" />
+      <workItem from="1675287222425" duration="999000" />
+      <workItem from="1675326538905" duration="1432000" />
+      <workItem from="1675363755355" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675287315400</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finishing N-tier architecture">
+      <created>1675287742818</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675287742818</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,26 +245,8 @@
     <MESSAGE value="Adding toastr lib for flying notifications" />
     <MESSAGE value="Adding N-Tier Architecture to the project" />
     <MESSAGE value="nepon" />
-    <option name="LAST_COMMIT_MESSAGE" value="nepon" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs</url>
-          <line>18</line>
-          <properties documentPath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" initialLine="18" containingFunctionPresentation="method 'Index'">
-            <startOffsets>
-              <option value="419" />
-            </startOffsets>
-            <endOffsets>
-              <option value="453" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Finishing N-tier architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing N-tier architecture" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
