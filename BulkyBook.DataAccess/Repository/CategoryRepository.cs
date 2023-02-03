@@ -14,11 +14,6 @@ public class CategoryRepository : Repository<Category>, ICategoryRepository
 
     public void Update(Category obj)
     {
-        throw new NotImplementedException();
-    }
-
-    public void Save()
-    {
-        _db.SaveChanges();
+        _db.Update(obj);
     }
 }
