@@ -3,6 +3,8 @@
   <component name="EfCoreDialogsState">
     <option name="keyValueStorage">
       <map>
+        <entry key="Common:440e31e1-61f9-4aae-a2a6-04d4a957c8fb:dbContext" value="BulkyBook.DataAccess.ApplicationDbContext" />
+        <entry key="Common:8bdb14ec-b6a2-4794-ac48-d0ae839f8ec0:dbContext" value="BulkyBook.DataAccess.ApplicationDbContext" />
         <entry key="Common:buildConfiguration" value="Debug" />
         <entry key="Common:dbContext" value="BulkyBookWeb.Data.ApplicationDbContext" />
         <entry key="Common:noBuild" value="false" />

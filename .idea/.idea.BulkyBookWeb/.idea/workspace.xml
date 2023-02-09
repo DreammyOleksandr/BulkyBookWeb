@@ -7,9 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/CoverTypeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/efCoreCommonOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/efCoreCommonOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/efCoreDialogsState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/efCoreDialogsState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/CategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/IRepository/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/IRepository/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/BulkyBookWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/CoverTypeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Customer/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Category/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Category/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Category/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Category/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/CoverType/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/CoverType/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/CoverType/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/CoverType/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/CoverType/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Customer/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Customer/Views/Home/Privacy.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Customer/Views/_ViewStart.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +53,26 @@
       </list>
     </option>
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7272ef87-8784-49c2-a8f9-7299640f8220" />
+        <option name="url" value="https://github.com/OklahomaC/BulkyBookWeb.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BulkyBook.DataAccess/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BulkyBook.DataAccess/Repository/IRepository/ICategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBook.Utility/StaticDetails.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Notifications.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1a59674744830c52bb8ec2c75c1a5b1b21ec7b871acd25d24a346472da73b/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eeaf281031b3ffe3d44a91e71a5808c8d236a9caabbb947871e6dc415bd8b/Migration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -145,6 +190,12 @@
       <workItem from="1675287222425" duration="999000" />
       <workItem from="1675326538905" duration="1432000" />
       <workItem from="1675363755355" duration="414000" />
+      <workItem from="1675603256209" duration="2573000" />
+      <workItem from="1675605941648" duration="1185000" />
+      <workItem from="1675607140154" duration="4404000" />
+      <workItem from="1675934125368" duration="11000" />
+      <workItem from="1675961809632" duration="1889000" />
+      <workItem from="1675963717147" duration="2201000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -223,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675287742818</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding Cover Type to Database">
+      <created>1675606018447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606018447</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding Cover Type to Database and its CRUD operations">
+      <created>1675608496005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675608496005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +311,29 @@
     <MESSAGE value="Adding N-Tier Architecture to the project" />
     <MESSAGE value="nepon" />
     <MESSAGE value="Finishing N-tier architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing N-tier architecture" />
+    <MESSAGE value="Adding Cover Type to Database" />
+    <MESSAGE value="Adding Cover Type to Database and its CRUD operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Cover Type to Database and its CRUD operations" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Index.cshtml</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/CoverType/Index.cshtml" initialLine="12" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

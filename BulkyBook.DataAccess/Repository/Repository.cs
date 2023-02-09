@@ -37,9 +37,9 @@ public class Repository<T> : IRepository<T> where T : class
 
     public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
     {
-        IQueryable<T> quary = dbSet;
-        quary = quary.Where(filter);
+        IQueryable<T> query = dbSet;
+        query = query.Where(filter);
         
-        return quary.FirstOrDefault();
+        return query.FirstOrDefault();
     }
 }

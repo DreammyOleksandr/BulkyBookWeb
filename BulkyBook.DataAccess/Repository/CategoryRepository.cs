@@ -1,4 +1,3 @@
-using System.Linq.Expressions;
 using BulkyBook.Models;
 
 namespace BulkyBook.DataAccess.Repository.IRepository;
@@ -14,6 +13,6 @@ public class CategoryRepository : Repository<Category>, ICategoryRepository
 
     public void Update(Category obj)
     {
-        _db.Update(obj);
+        _db.Categories.Update(obj);
     }
 }
