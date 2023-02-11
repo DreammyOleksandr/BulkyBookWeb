@@ -14,10 +14,10 @@ public class CoverTypeController : Controller
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        IEnumerable<CoverType> objectOfCoverTypesList = _unitOfWork.CoverType.GetAll();
-        return View(objectOfCoverTypesList);
+        IEnumerable<CoverType> objectOfCoverTypeList = _unitOfWork.CoverType.GetAll();
+        return View(objectOfCoverTypeList);
     }
 
     public IActionResult Create()
@@ -25,8 +25,9 @@ public class CoverTypeController : Controller
         return View();
     }
 
+
     [HttpPost]
-    [ValidateAntiForgeryToken]
+    [AutoValidateAntiforgeryToken]
     public IActionResult Create(CoverType obj)
     {
         if (ModelState.IsValid)
@@ -36,7 +37,6 @@ public class CoverTypeController : Controller
             TempData["success"] = "Successful creation";
             return RedirectToAction("Index");
         }
-
         else
             return View(obj);
     }
@@ -59,6 +59,7 @@ public class CoverTypeController : Controller
 
         return View(coverTypeFromDb);
     }
+
 
     [HttpPost]
     [AutoValidateAntiforgeryToken]
@@ -94,6 +95,7 @@ public class CoverTypeController : Controller
 
         return View(coverTypeFromDbFirst);
     }
+
 
     [HttpPost]
     [AutoValidateAntiforgeryToken]

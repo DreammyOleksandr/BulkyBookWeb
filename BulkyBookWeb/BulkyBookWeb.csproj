@@ -53,7 +53,6 @@
       <AdditionalFiles Include="Areas\Admin\Views\Category\Edit.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\CoverType\Create.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\CoverType\Delete.cshtml" />
-      <AdditionalFiles Include="Areas\Admin\Views\CoverType\Details.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\CoverType\Edit.cshtml" />
       <AdditionalFiles Include="Areas\Admin\Views\CoverType\Index.cshtml" />
       <AdditionalFiles Include="Areas\Customer\Views\Home\Index.cshtml" />
