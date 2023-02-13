@@ -1,0 +1,72 @@
+@model Product
+
+<form method="post" asp-action="Upsert">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">EDIT PRODUCT</h2>
+            <hr/>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" rows="3" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ISBN"></label>
+            <input asp-for="ISBN" class="form-control">
+            <span asp-validation-for="ISBN" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Author"></label>
+            <input asp-for="Author" class="form-control">
+            <span asp-validation-for="Author" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ListPrice"></label>
+            <input asp-for="ListPrice" class="form-control">
+            <span asp-validation-for="ListPrice" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PricePerBook"></label>
+            <input asp-for="PricePerBook" class="form-control">
+            <span asp-validation-for="PricePerBook" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PricePer50Books"></label>
+            <input asp-for="PricePer50Books" class="form-control">
+            <span asp-validation-for="PricePer50Books" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PricePer100Books"></label>
+            <input asp-for="PricePer100Books" class="form-control">
+            <span asp-validation-for="PricePer100Books" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="ViewBag.CategoryList"></select>
+            <option disabled selected>--Select category-- </option>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CoverTypeId"></label>
+            <select asp-for="CoverTypeId" asp-items="@(ViewData["CoverTypeList"] as IEnumerable<SelectListItem>)"></select>
+            <option disabled selected>--Select cover type-- </option>
+            <span asp-validation-for="CoverTypeId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 150px">UPDATE</button>
+        <a asp-controller="CoverType" asp-action="Index" class="btn btn-primary" style="width: 150px">BACK TO LIST</a>
+    </div>
+</form>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"></partial>
+    }
+}

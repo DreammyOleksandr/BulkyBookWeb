@@ -59,8 +59,4 @@
       <AdditionalFiles Include="Areas\Customer\Views\Home\Privacy.cshtml" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
 </Project>
