@@ -21,43 +21,35 @@ public class ProductController : Controller
         IEnumerable<Product> objectOfProductList = _unitOfWork.Product.GetAll();
         return View(objectOfProductList);
     }
-
-
-    [HttpPost]
-    [AutoValidateAntiforgeryToken]
-    public IActionResult Upsert(Product obj)
-    {
-        if (ModelState.IsValid)
-        {
-            _unitOfWork.Product.Add(obj);
-            _unitOfWork.Save();
-            TempData["success"] = "Successful creation";
-            return RedirectToAction("Index");
-        }
-        else
-            return View(obj);
-    }
-
+    
     public IActionResult Upsert(int? Id)
     {
         ProductVM productVm = new()
         {
             Product = new(),
-            CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem(
+            CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
             {
-            }));
-        }
+                Text = i.Name,
+                Value = i.Id.ToString()
+            }),
+            CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+            {
+                Text = i.Name,
+                Value = i.Id.ToString()
+            }),
+
+        };
         if (Id == null || Id == 0)
         {
-            ViewBag.CategoryList = categoryList;
-            ViewData["CoverTypeList"] = coverTypeList;
-            return View(product);
+            // ViewBag.CategoryList = categoryList;
+            // ViewData["CoverTypeList"] = coverTypeList;
+            return View(productVm); 
         }
         else
         {
         }
 
-        return View(product);
+        return View(productVm);
     }
 
     [HttpPost]
