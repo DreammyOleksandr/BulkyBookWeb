@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/bulky.p9GbBQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/dataSources/3343f100-cc84-44e1-8abe-68a9fca39cd2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/js/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Upsert.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,8 @@
       <workItem from="1676742409062" duration="4180000" />
       <workItem from="1677360081421" duration="1921000" />
       <workItem from="1677362021075" duration="1196000" />
-      <workItem from="1677683606517" duration="313000" />
+      <workItem from="1677683606517" duration="1959000" />
+      <workItem from="1677685582805" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Db Context">
       <created>1673513393487</created>
@@ -342,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676746396081</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Rendering HTML in Databases">
+      <created>1677684040374</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677684040374</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +390,27 @@
     <MESSAGE value="proceeding developing of ProductVM" />
     <MESSAGE value="Making ProductVM be able to store to the database" />
     <MESSAGE value="New repository changes to get properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="New repository changes to get properties" />
+    <MESSAGE value="Rendering HTML in Databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rendering HTML in Databases" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs</url>
+          <line>90</line>
+          <properties documentPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs" initialLine="90" containingFunctionPresentation="method 'Upsert'">
+            <startOffsets>
+              <option value="2832" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2872" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

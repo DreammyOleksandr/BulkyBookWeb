@@ -23,7 +23,7 @@ public class ProductController : Controller
         return View();
     }
 
-    public IActionResult Upsert(int? Id)
+    public IActionResult Upsert(int? id)
     {
         ProductVM productVm = new()
         {
@@ -39,7 +39,7 @@ public class ProductController : Controller
                 Value = i.Id.ToString()
             }),
         };
-        if (Id == null || Id == 0)
+        if (id == null || id == 0)
         {
             // ViewBag.CategoryList = categoryList;
             // ViewData["CoverTypeList"] = coverTypeList;
@@ -47,9 +47,9 @@ public class ProductController : Controller
         }
         else
         {
-        }
-
-        return View(productVm);
+            productVm.Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+            return View(productVm);
+        } 
     }
 
     [HttpPost]
@@ -65,6 +65,15 @@ public class ProductController : Controller
                 var uploads = Path.Combine(wwwRootPath, @"images/products");
                 var extension = Path.GetExtension(file.FileName);
 
+                if (obj.Product.ImageURL != null)
+                {
+                    var oldImagePath = Path.Combine(wwwRootPath, obj.Product.ImageURL.TrimStart('\\'));
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                }
+                
                 using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
                 {
                     file.CopyTo(fileStreams);
@@ -73,7 +82,14 @@ public class ProductController : Controller
                 obj.Product.ImageURL = @"\images\products\" + fileName + extension;
             }
 
-            _unitOfWork.Product.Add(obj.Product);
+            if (obj.Product.Id == 0)
+            {
+                _unitOfWork.Product.Add(obj.Product);
+            }
+            else
+            {
+                _unitOfWork.Product.Update(obj.Product);
+            }
             _unitOfWork.Save();
             TempData["success"] = "Successful creation";
             return RedirectToAction("Index");
@@ -103,7 +119,7 @@ public class ProductController : Controller
     [HttpGet]
     public IActionResult GetAll()
     {
-        var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
+        var productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
         return Json(new { data = productList });
     }
 
