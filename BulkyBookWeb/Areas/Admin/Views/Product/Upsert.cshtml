@@ -2,8 +2,20 @@
 
 <form method="post" asp-action="Upsert" enctype="multipart/form-data">
     <input asp-for="Product.Id" hidden/>
+    <input asp-for="Product.ImageURL" hidden/>
+    
+    <br/>
+
+    <div class="col-10">
+        
+    </div>
+    <div class="col-2">
+        <img src="@Model.Product.ImageURL" style="border-radius: 5px; border: 1px; width: 100px; height: 200px" alt="Oops... Something went wrong :(">
+    </div>
+    
+    
     <div class="border p-3 mt-4 row">
-        <div class="row pb-2">
+        <div class="col-12 pb-2">
             <h2 class="text-primary">@(Model.Product.Id != 0 ? "UPDATE" : "CREATE") PRODUCT</h2>
             <hr/>
         </div>
