@@ -8,9 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8edd90cc-063f-471c-95a7-f199e247580e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BulkyBookWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.DataAccess/Repository/Repository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBook.Models/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Views/Product/Upsert.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/BulkyBookWeb/wwwroot/js/product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/BulkyBook.DataAccess/Repository/IRepository/ICategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBook.Utility/StaticDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Areas/Admin/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/bondarenkooleksandr/C#Projects/BulkyBookWeb/BulkyBookWeb/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BulkyBookWeb/Views/Shared/_Notifications.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1a59674744830c52bb8ec2c75c1a5b1b21ec7b871acd25d24a346472da73b/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eeaf281031b3ffe3d44a91e71a5808c8d236a9caabbb947871e6dc415bd8b/Migration.cs" root0="SKIP_HIGHLIGHTING" />

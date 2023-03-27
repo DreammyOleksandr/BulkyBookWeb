@@ -17,11 +17,12 @@ public class Product
     [Required, Range(1, 10000), DisplayName("Price per 1-50 books")] public double PricePer50Books { get; set; }
     [Required, Range(1, 10000), DisplayName("Price per 50-100 books")] public double PricePer100Books { get; set; }
     [ValidateNever] public string ImageURL { get; set; }
+    
     [Required] public int CategoryId { get; set; }
-
     [ForeignKey("CategoryId"), ValidateNever]
     public Category Category { get; set; }
 
     public int CoverTypeId { get; set; }
-    [ValidateNever] public CoverType CoverType { get; set; }
+    [ValidateNever]
+    public CoverType CoverType { get; set; }
 }

@@ -97,22 +97,7 @@ public class ProductController : Controller
         else
             return View(obj);
     }
-
-    [HttpPost]
-    [AutoValidateAntiforgeryToken]
-    public IActionResult DeletePost(int? Id)
-    {
-        var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == Id);
-        if (obj == null)
-        {
-            return NotFound();
-        }
-
-        _unitOfWork.Product.Remove(obj);
-        _unitOfWork.Save();
-        TempData["success"] = "Successful deletion";
-        return RedirectToAction("Index");
-    }
+    
 
     #region API CALLS
 
@@ -121,6 +106,27 @@ public class ProductController : Controller
     {
         var productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
         return Json(new { data = productList });
+    }
+    
+    [HttpDelete]
+    public IActionResult Delete(int? Id)
+    {
+        var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == Id);
+        if (obj == null)
+        {
+            return Json(new{success = false, message = "Error while deleting"});
+        }
+        
+        var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageURL.TrimStart('\\'));
+        if (System.IO.File.Exists(oldImagePath))
+        {
+            System.IO.File.Delete(oldImagePath);
+        }
+
+        _unitOfWork.Product.Remove(obj);
+        _unitOfWork.Save();
+
+        return Json(new { success = true, message = "Successful deletion!" });
     }
 
     #endregion
